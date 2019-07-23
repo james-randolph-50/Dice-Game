@@ -30,7 +30,8 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     
         // Update UI 
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
-    
+        
+
         // Check if player won the game
          if (scores[activePlayer] >= 100) {
             document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
