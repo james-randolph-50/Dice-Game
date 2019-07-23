@@ -7,3 +7,5 @@ activePlayer = 0;
 dice = Math.floor(Math.random() * 6) + 1;
 
 document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
+
+document.querySelector('.dice').style.display = 'none';
